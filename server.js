@@ -1,6 +1,7 @@
 const express = require('express');
 const {graphqlHTTP} = require('express-graphql');
 const {buildSchema} = require('graphql');
+
 const ALevel = require('./src/ALevel');
 
 // Construct a schema, using GraphQL schema language
@@ -8,7 +9,7 @@ const schema = buildSchema(`
   type Query {
     hello: String,
     bye: String,
-    ALevel(subject: String!, point: Int): String, 
+    ALevel(subject: String!, point: Int): String,
   },
 `);
 
@@ -22,7 +23,7 @@ const root = {
     },
     ALevel: ({point, subject}) => {
         return ALevel(point, subject);
-    }
+    },
 };
 
 const app = express();

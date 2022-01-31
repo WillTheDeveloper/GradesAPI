@@ -1,3 +1,5 @@
+module.exports = ALevel;
+
 function ALevel(point, subject) {
     if (point === 56) {
         return 'You got A* for ' + subject;
@@ -22,4 +24,11 @@ function ALevel(point, subject) {
     }
 }
 
-module.exports = ALevel;
+
+
+/*function ALevelNineUnitAward(point, subject) {
+    if (point === 76) {
+        return 'You got A*A for ' + subject;
+    }
+}*/
+
