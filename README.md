@@ -4,7 +4,7 @@ This is an GraphQL (js) API that allows you to query grades. It's quite that sim
 
 ## Query Example
 
-Lets query A Levels. We pass in a subject because why not. Pass in the points that we achieved.
+Let's query A Levels. We pass in a subject because why not. Pass in the points that we achieved.
 
 ```
 {
