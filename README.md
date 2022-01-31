@@ -2,9 +2,25 @@
 
 This is an GraphQL (js) API that allows you to query grades. It's quite that simple.
 
-## Query Structure
+## Query Example
 
-*coming soon*
+Lets query A Levels. We pass in a subject because why not. Pass in the points that we achieved.
+
+```
+{
+  ALevel(subject: "Math", point: 50)
+}
+```
+
+Then we will get returned a string (for now) that states our grade.
+
+```
+{
+  "data": {
+    "ALevel": "You got A for Math"
+  }
+}
+```
 
 ## Installation
 
