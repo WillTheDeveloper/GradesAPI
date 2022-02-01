@@ -29,3 +29,20 @@ This command will start the server:
 ```shell
 node server.js
 ```
+
+## Documentation
+
+*coming soon*
+
+## Qualifications to be covered
+
+- [X] A Levels
+- [ ] BTEC NQF
+- [ ] BTEC QCF
+- [ ] BTEC RQF
+- [ ] Cambridge PREU
+- [ ] Core Maths
+- [ ] OCR Cambridge Technical
+- [ ] T Levels
+- [ ] AQA Technicals
+- [ ] Extended Project
