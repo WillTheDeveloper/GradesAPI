@@ -46,3 +46,7 @@ node server.js
 - [ ] T Levels
 - [ ] AQA Technicals
 - [ ] Extended Project
+
+## Concept
+
+- The idea behind this API is to allow for all applications to be able to convert grades for all qualifications easily without having to implement their own version. The idea of the API is to do that job for them. The API should be able to take both grades and points and give the result that the person wants. The current UCAS api that we assume has grade calculations on, is not public facing so people cannot use it for applications of their own.
