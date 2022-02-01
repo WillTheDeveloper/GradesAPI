@@ -32,7 +32,7 @@ node server.js
 
 ## Documentation
 
-*coming soon*
+[Docs can be found here.](https://github.com/WillTheDeveloper/GradesAPI/wiki/Documentation) *Will be moved to web based docs in the future.*
 
 ## Qualifications to be covered
 
