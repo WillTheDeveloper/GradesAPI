@@ -26,9 +26,9 @@ function ALevel(point, subject) {
 
 
 
-/*function ALevelNineUnitAward(point, subject) {
-    if (point === 76) {
-        return 'You got A*A for ' + subject;
-    }
-}*/
+// function ALevelNineUnitAward(point, subject) {
+//     if (point === 76) {
+//         return 'You got A*A for ' + subject;
+//     }
+// }
 
