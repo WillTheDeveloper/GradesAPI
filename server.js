@@ -7,19 +7,19 @@ const ALevel = require('./src/ALevel');
 // Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
   type Query {
-    hello: String,
-    bye: String,
+    hello(name: String): String,
+    bye(name: String): String,
     ALevel(subject: String!, point: Int): String,
   },
 `);
 
 // The root provides a resolver function for each API endpoint
 const root = {
-    hello: () => {
-        return 'Hello world!';
+    hello: ({name}) => {
+        return 'Hello ' + name + '!';
     },
-    bye: () => {
-        return 'Bye world!';
+    bye: ({name}) => {
+        return 'Bye ' + name + '!';
     },
     ALevel: ({point, subject}) => {
         return ALevel(point, subject);
