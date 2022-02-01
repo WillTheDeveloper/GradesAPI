@@ -7,9 +7,9 @@ const ALevel = require('./src/ALevel');
 // Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
   type Query {
-    hello(name: String): String,
-    bye(name: String): String,
-    ALevel(subject: String!, point: Int): String,
+    hello(name: String!): String,
+    bye(name: String!): String,
+    ALevel(subject: String!, point: Int!): String,
   },
 `);
 
