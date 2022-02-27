@@ -1,6 +1,6 @@
-module.exports = ALevel;
+module.exports = ALevelDB;
 
-function ALevel(point, subject) {
+function ALevelDB(point, subject) {
     if (point === 56) {
         return 'You got A* for ' + subject;
     }
