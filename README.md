@@ -37,15 +37,15 @@ node server.js
 ## Qualifications to be covered
 
 - [X] A Levels
-- [ ] BTEC NQF
+- [X] BTEC NQF
 - [ ] BTEC QCF
 - [ ] BTEC RQF
-- [ ] Cambridge PREU
-- [ ] Core Maths
+- [X] Cambridge PREU
+- [X] Core Maths
 - [ ] OCR Cambridge Technical
-- [ ] T Levels
-- [ ] AQA Technicals
-- [ ] Extended Project
+- [X] T Levels
+- [X] AQA Technicals
+- [X] Extended Project
 
 ## Concept
 
